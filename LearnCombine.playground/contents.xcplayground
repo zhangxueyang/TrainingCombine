@@ -19,5 +19,15 @@
         <page name='15_merge'/>
         <page name='16_combineLatest'/>
         <page name='17_zip'/>
+        <page name='18_delayPublsher'/>
+        <page name='19_collect_time1'/>
+        <page name='20_collect_time2'/>
+        <page name='21_collect_time3'/>
+        <page name='22_debounce1'/>
+        <page name='23_debounce2'/>
+        <page name='24_share'/>
+        <page name='25_throttle'/>
+        <page name='27_timeout'/>
+        <page name='28_measureInterval'/>
     </pages>
 </playground>
