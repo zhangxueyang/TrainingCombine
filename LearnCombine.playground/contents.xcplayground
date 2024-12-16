@@ -8,10 +8,16 @@
         <page name='04_replace'/>
         <page name='05_scan'/>
         <page name='06_filter'/>
-        <page name='07_removeDumplcate'/>
+        <page name='07_removeDuplicates'/>
         <page name='08_compactMap'/>
         <page name='09_ignoreOutput'/>
         <page name='10_firstAndLast'/>
         <page name='11_prefix'/>
+        <page name='12_perpend'/>
+        <page name='13_append'/>
+        <page name='14_switchToLatest'/>
+        <page name='15_merge'/>
+        <page name='16_combineLatest'/>
+        <page name='17_zip'/>
     </pages>
 </playground>
