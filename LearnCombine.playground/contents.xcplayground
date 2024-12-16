@@ -27,6 +27,7 @@
         <page name='23_debounce2'/>
         <page name='24_share'/>
         <page name='25_throttle'/>
+        <page name='26_throttle'/>
         <page name='27_timeout'/>
         <page name='28_measureInterval'/>
     </pages>

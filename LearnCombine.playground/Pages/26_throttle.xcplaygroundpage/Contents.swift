@@ -4,7 +4,7 @@ import UIKit
 import PlaygroundSupport
 import Combine
 
-class InputViewController: UIViewController {
+class MeasureViewController: UIViewController {
     var subscriptions = Set<AnyCancellable>()
 
     override func viewDidLoad() {
@@ -29,7 +29,8 @@ class InputViewController: UIViewController {
         
         NotificationCenter.default
             .publisher(for: UITextField.textDidChangeNotification, object: textField)
-            .debounce(for: .seconds(1), scheduler: DispatchQueue.main)
+            // 用在这里不太合适
+            .throttle(for: .seconds(1), scheduler: DispatchQueue.main, latest: true)
             .compactMap({ ($0.object as? UITextField)?.text })
             .sink { completion in
                 print("UITextField end input")
@@ -37,8 +38,9 @@ class InputViewController: UIViewController {
                 print("debounce receiveValue \(value)")
                 textLabel.text = value
             }.store(in: &subscriptions)
+
     }
-    
 }
 
-PlaygroundPage.current.liveView = InputViewController()
+PlaygroundPage.current.liveView = MeasureViewController()
+
