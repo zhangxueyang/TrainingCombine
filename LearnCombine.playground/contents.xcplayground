@@ -30,5 +30,14 @@
         <page name='26_throttle'/>
         <page name='27_timeout'/>
         <page name='28_measureInterval'/>
+        <page name='29_sequence_min'/>
+        <page name='30_sequence_max'/>
+        <page name='31_sequence_first'/>
+        <page name='32_sequence_last'/>
+        <page name='33_sequence_output'/>
+        <page name='34_sequence_containes'/>
+        <page name='35_sequence_staisfyAll'/>
+        <page name='36_sequence_reduce'/>
+        <page name='37_sequence_Comparable'/>
     </pages>
 </playground>
