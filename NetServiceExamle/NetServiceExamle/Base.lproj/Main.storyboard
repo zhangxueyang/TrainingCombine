@@ -18,10 +18,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="SwK-By-gAK">
-                                <rect key="frame" x="80.666666666666686" y="409" width="232" height="34.333333333333314"/>
+                                <rect key="frame" x="80.666666666666686" y="381.66666666666669" width="232" height="88.666666666666686"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6D-ic-8Fn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptT-pj-1co">
                                         <rect key="frame" x="0.0" y="0.0" width="232" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="两个接口合并"/>
+                                        <connections>
+                                            <action selector="zipTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tta-lg-Vke"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6D-ic-8Fn">
+                                        <rect key="frame" x="0.0" y="54.333333333333314" width="232" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="一个接口依赖另外一个接口"/>
                                         <connections>

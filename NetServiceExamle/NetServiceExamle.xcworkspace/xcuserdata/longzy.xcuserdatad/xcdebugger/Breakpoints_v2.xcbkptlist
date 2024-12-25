@@ -7,54 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1FB27CC6-2C82-47A7-B002-3B201FC6E7C7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NetServiceExamle/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "dependencyTap(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1FB27CC6-2C82-47A7-B002-3B201FC6E7C7 - 46998f9aea79d3d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;NetServiceExamle.SongLists&gt;) throws -&gt; NetServiceExamle.SongLists in NetServiceExamle.ViewController.dependencyTap(Any) -&gt; ()"
-                  moduleName = "NetServiceExamle"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/longzy/Desktop/PersonalSpace/TrainingCombine/NetServiceExamle/NetServiceExamle/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "552">
-               </Location>
-               <Location
-                  uuid = "1FB27CC6-2C82-47A7-B002-3B201FC6E7C7 - 46998f9aea79d3ee"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;NetServiceExamle.SongLists&gt;) throws -&gt; NetServiceExamle.SongLists in NetServiceExamle.ViewController.dependencyTap(Any) -&gt; ()"
-                  moduleName = "NetServiceExamle"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/longzy/Desktop/PersonalSpace/TrainingCombine/NetServiceExamle/NetServiceExamle/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "552">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8A65A745-0F91-4ADC-B65D-0E01E4A5555A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -62,8 +14,8 @@
             filePath = "NetServiceExamle/NetService/NetService+Combine.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "parseDetailtResponse(_:to:)"
             landmarkType = "7">
             <Locations>
@@ -80,10 +32,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
                   endingLineNumber = "86"
-                  offsetFromSymbolStart = "2864">
+                  offsetFromSymbolStart = "2396">
                </Location>
                <Location
-                  uuid = "8A65A745-0F91-4ADC-B65D-0E01E4A5555A - e3f34d5492df20d8"
+                  uuid = "8A65A745-0F91-4ADC-B65D-0E01E4A5555A - e3f34d5492df20b9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -93,30 +45,12 @@
                   urlString = "file:///Users/longzy/Desktop/PersonalSpace/TrainingCombine/NetServiceExamle/NetServiceExamle/NetService/NetService+Combine.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "2416">
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "2732">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "15A06AF6-914E-4689-AA3B-9D17C55715E0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "NetServiceExamle/NetService/NetService+Combine.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "parseDetailtResponse(_:to:)"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "15A06AF6-914E-4689-AA3B-9D17C55715E0 - e3f34d5492df237b"
+                  uuid = "8A65A745-0F91-4ADC-B65D-0E01E4A5555A - e3f34d5492df20b9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -126,12 +60,12 @@
                   urlString = "file:///Users/longzy/Desktop/PersonalSpace/TrainingCombine/NetServiceExamle/NetServiceExamle/NetService/NetService+Combine.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "1056">
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "2872">
                </Location>
                <Location
-                  uuid = "15A06AF6-914E-4689-AA3B-9D17C55715E0 - e3f34d5492df209a"
+                  uuid = "8A65A745-0F91-4ADC-B65D-0E01E4A5555A - e3f34d5492df235c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -141,9 +75,9 @@
                   urlString = "file:///Users/longzy/Desktop/PersonalSpace/TrainingCombine/NetServiceExamle/NetServiceExamle/NetService/NetService+Combine.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "1068">
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "2260">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -6,14 +6,14 @@ PODS:
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - OpenCombine (0.14.0)
-  - SmartCodable (4.2.5)
+  - SmartCodable (4.3.2)
   - Toast-Swift (5.1.1)
 
 DEPENDENCIES:
   - CombineExt
   - Moya/Combine
   - OpenCombine
-  - SmartCodable
+  - SmartCodable (~> 4.3.2)
   - Toast-Swift
 
 SPEC REPOS:
@@ -30,9 +30,9 @@ SPEC CHECKSUMS:
   CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   OpenCombine: 99bf5bc4fce0e34507031a9f277e927bbe25a722
-  SmartCodable: b39182ec8f12298f277a1c0ec7a7c1031bbfce1b
+  SmartCodable: 88fbf3d65207c2376fdbce4b080a3d578cb51be8
   Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
 
-PODFILE CHECKSUM: e4619060e5d18fcc57019341da3cb5b64c19841f
+PODFILE CHECKSUM: 39a30cdc879253b8663b1df5ffe10bd4c21a6582
 
 COCOAPODS: 1.15.2

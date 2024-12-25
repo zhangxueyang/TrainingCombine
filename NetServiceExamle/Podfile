@@ -4,15 +4,12 @@
 target 'NetServiceExamle' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for NetServiceExamle
-  
   pod 'Moya/Combine'
   pod 'OpenCombine'
   pod 'CombineExt'
   pod 'Toast-Swift'
-  
-  pod 'SmartCodable'
+  pod 'SmartCodable', '~> 4.3.2'
 
   target 'NetServiceExamleTests' do
     inherit! :search_paths

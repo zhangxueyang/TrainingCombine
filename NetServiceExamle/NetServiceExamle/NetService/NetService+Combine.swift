@@ -79,11 +79,7 @@ extension NetService {
     
     /// 解析并处理业务逻辑错误
     fileprivate static func parseDetailtResponse<T: SmartCodable>(_ data: Data, to type: T.Type) throws -> T {
-        guard
-            let rootInfo = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any],
-            let rootResponse1 = RootResponse<[SongLists]>.deserialize(from: rootInfo),
-            let rootResponse = RootResponse<T>.deserialize(from: rootInfo)
-        else {
+        guard let rootResponse = RootResponse<T>.deserialize(from: data) else {
             throw NetworkError.parsingError
         }
         

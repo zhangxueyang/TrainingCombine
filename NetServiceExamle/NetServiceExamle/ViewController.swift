@@ -22,6 +22,24 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func zipTap(_ sender: Any) {
+        
+        self.view.makeToastActivity(.center)
+        Publishers.Zip(songListPublisher(singer: "张杰"), songDetailPublisher(singer: "张杰", n: 1))
+            .sink { completion in
+                self.view.hideToastActivity()
+                switch completion {
+                case .finished:
+                    self.view.makeToast("success")
+                case .failure(let error):
+                    self.view.makeToast(error.localizedDescription)
+                }
+            } receiveValue: { lists, detail in
+                self.view.makeToast("receiveValue \n lists== \(String(describing: lists)) \n detail == \(String(describing: detail))")
+            }.store(in: &subspritions)
+
+    }
+    
     @IBAction func dependencyTap(_ sender: Any) {
         self.view.makeToastActivity(.center)
         let singer = "张杰"
