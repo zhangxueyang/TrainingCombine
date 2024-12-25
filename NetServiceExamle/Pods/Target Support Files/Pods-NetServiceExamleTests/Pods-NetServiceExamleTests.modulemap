@@ -1,0 +1,6 @@
+framework module Pods_NetServiceExamleTests {
+  umbrella header "Pods-NetServiceExamleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -39,5 +39,7 @@
         <page name='35_sequence_staisfyAll'/>
         <page name='36_sequence_reduce'/>
         <page name='37_sequence_Comparable'/>
+        <page name='38_ErrorHanding'/>
+        <page name='39_future'/>
     </pages>
 </playground>

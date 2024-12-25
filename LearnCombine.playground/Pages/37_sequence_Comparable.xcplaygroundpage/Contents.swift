@@ -36,7 +36,6 @@ struct MyDate: Comparable {
     
 }
 
-
 testSample(label: "37_sequence01") {
     let date1 = MyDate(year: 2024, month: 12, day: 1)
     let date2 = MyDate(year: 2023, month: 12, day: 1)
